@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APIproject", "APIproject", "{DC0D6BD5-A977-4086-BA9D-C879516DFB53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClassLibrary", "ClassLibrary", "{A188FCC1-C724-47B1-B669-D84DDE3F1118}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JpMorgans_chaysCo_MortugageLoan", "JpMorgans_chaysCo_MortugageLoan\JpMorgans_chaysCo_MortugageLoan.csproj", "{56D8E7A9-DF3D-40B7-B527-B39A10FEC58E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JpMorgans_chaysCo_MortugageLoan_BusinessEntities", "JpMorgans_chaysCo_MortugageLoan_BusinessEntities\JpMorgans_chaysCo_MortugageLoan_BusinessEntities.csproj", "{FE14C832-0220-4E2D-9CD5-87924941A36A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JpMorgans_chaysCo_MortugageLoan_DataBaseLogic", "JpMorgans_chaysCo_MortugageLoan_DataBaseLogic\JpMorgans_chaysCo_MortugageLoan_DataBaseLogic.csproj", "{75DFCEF9-84FF-4BC6-9E77-41B7DAF0F667}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JpMorgans_chaysCo_MortugageLoan_RepositoryLogic", "JpMorgans_chaysCo_MortugageLoan_RepositoryLogic\JpMorgans_chaysCo_MortugageLoan_RepositoryLogic.csproj", "{CF23275F-2E98-4427-A62F-B3C5B6B0111A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JpMorgans_chaysCo_MortugageLoan_ServiceLayer", "JpMorgans_chaysCo_MortugageLoan_ServiceLayer\JpMorgans_chaysCo_MortugageLoan_ServiceLayer.csproj", "{5BF5DDE9-0879-4D8A-9ACD-360916695D96}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56D8E7A9-DF3D-40B7-B527-B39A10FEC58E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56D8E7A9-DF3D-40B7-B527-B39A10FEC58E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56D8E7A9-DF3D-40B7-B527-B39A10FEC58E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56D8E7A9-DF3D-40B7-B527-B39A10FEC58E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE14C832-0220-4E2D-9CD5-87924941A36A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE14C832-0220-4E2D-9CD5-87924941A36A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE14C832-0220-4E2D-9CD5-87924941A36A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE14C832-0220-4E2D-9CD5-87924941A36A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75DFCEF9-84FF-4BC6-9E77-41B7DAF0F667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75DFCEF9-84FF-4BC6-9E77-41B7DAF0F667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75DFCEF9-84FF-4BC6-9E77-41B7DAF0F667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75DFCEF9-84FF-4BC6-9E77-41B7DAF0F667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF23275F-2E98-4427-A62F-B3C5B6B0111A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF23275F-2E98-4427-A62F-B3C5B6B0111A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF23275F-2E98-4427-A62F-B3C5B6B0111A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF23275F-2E98-4427-A62F-B3C5B6B0111A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BF5DDE9-0879-4D8A-9ACD-360916695D96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BF5DDE9-0879-4D8A-9ACD-360916695D96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BF5DDE9-0879-4D8A-9ACD-360916695D96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BF5DDE9-0879-4D8A-9ACD-360916695D96}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{56D8E7A9-DF3D-40B7-B527-B39A10FEC58E} = {DC0D6BD5-A977-4086-BA9D-C879516DFB53}
+		{FE14C832-0220-4E2D-9CD5-87924941A36A} = {A188FCC1-C724-47B1-B669-D84DDE3F1118}
+		{75DFCEF9-84FF-4BC6-9E77-41B7DAF0F667} = {A188FCC1-C724-47B1-B669-D84DDE3F1118}
+		{CF23275F-2E98-4427-A62F-B3C5B6B0111A} = {A188FCC1-C724-47B1-B669-D84DDE3F1118}
+		{5BF5DDE9-0879-4D8A-9ACD-360916695D96} = {A188FCC1-C724-47B1-B669-D84DDE3F1118}
+	EndGlobalSection
+EndGlobal
